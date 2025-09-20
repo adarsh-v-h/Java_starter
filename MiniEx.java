@@ -41,6 +41,7 @@ public class MiniEx{
 			}
 		}
 		area = height * width;
-		System.out.println("The area is: "+area+"px sq");		
-}
+		System.out.println("The area is: "+area+"px sq");
+		scanner.close();		
+	}
 }
