@@ -36,7 +36,7 @@ public class Main{
 				}
 			}else{
 				System.out.println("year is a digit...");
-				System.out.print("Enter your year pf birth: ");
+				System.out.print("Enter your year of birth: ");
 				scanner.next();
 			}
 		}

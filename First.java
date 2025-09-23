@@ -1,7 +1,8 @@
 import java.util.Scanner; // to get the user input, Scanner is a class 
 
-public class First{
-	public static void main(String[] args){
+public class First{ // this is a whole class, and the main below it is a method of it.
+	public static void main(String[] args){ // this is where the JVM starts its execution
+		// We write main(String[] args) to tell the JVM where to start form, cause thats what the jVM is looking for..
 	System.out.println("Hello, monkey");
 	Scanner scanner = new Scanner(System.in); // here we are creating an object of the class,
 	System.out.print("Enter your first name: ");
