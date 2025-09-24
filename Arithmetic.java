@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Arithmetic{
 	public static void main(String[] args){
 		int x = 10, y = 2;
@@ -26,6 +27,19 @@ public class Arithmetic{
 		double result = 3 + 4 *(7-5)/2.0;
 		// left to right, start with () then , from left to right expo, then left to right Mul and div, then left to right add and sub
 		System.out.println(result);
-	
+		// a simple program to calculate compound interest
+		Scanner input = new Scanner(System.in);
+		double principle, rate, amount;
+		int timesCompound, years;
+		System.out.print("Enter the principle amount: ");
+		principle = input.nextDouble();
+		System.out.print("Enter the interest rate (in %): ");
+		rate = input.nextDouble() /100 ;
+		System.out.print("Enter the times compounded per year: ");
+		timesCompound = input.nextInt();
+		System.out.print("Enter the number of years: ");
+		years = input.nextInt();
+		amount = principle * (Math.pow((1+ rate/timesCompound), (timesCompound*years)));
+		System.out.printf("The amount is: %.3f\n", amount);
 	}
 }
