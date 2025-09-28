@@ -1,5 +1,5 @@
 import java.util.Random; // so Random is a class from java.util package 
-import java.util.Scanner;;
+import java.util.Scanner;
 public class Third {
     public static void main(String[] agrs){
         Random random = new Random(); // we are creating a new object of class Random and type Random 
